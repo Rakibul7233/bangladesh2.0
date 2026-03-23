@@ -12,6 +12,7 @@
     color: white;
     font-size: 18px;
     font-weight: 600px;
+    cursor: pointer;
 }
 .primary-color1{
     color: rgba(14, 14, 14, 0.6);
@@ -46,6 +47,7 @@ nav{
     font-weight: 600px;
     color: rgba(0, 106, 80, 1);
     border: 1px solid rgba(0, 106, 80, 1);
+    cursor: pointer;
 }
 
 /* banner section  */
@@ -185,4 +187,45 @@ main{
     font-size: 20px;
     padding: 0;
     margin: 0;
+}
+
+/* recent news  */
+.recent-news{
+    line-height: 24px;
+}
+.recent-news-text>h1{
+    font-size: 40px;
+    font-weight: 700px;
+}
+.recent-news-text>.description{
+    margin-bottom: 32px;
+}
+.recent-news-box{
+    display: flex;
+    background-color: white;
+    border-radius: 24px;
+    margin-bottom: 24px;
+}
+.recent-news-box>img{
+    border-radius: 24px;
+    height: 306px;
+    width: 408px;
+    margin: 48px 32px 48px 48px;
+}
+.recent-news-box>.box-text{
+    margin: 56px 48px 56px 0;
+    line-height: 24px;
+}
+.box-text>.title{
+    font-size: 32px;
+    margin: 15px 0;
+}
+.box-text>img{
+    margin: 0;
+}
+.box-text>p{
+    margin:5px 0 12px 0;
+}
+.box-text>button{
+    margin-top: 10px;
 }

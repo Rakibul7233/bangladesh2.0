@@ -94,7 +94,7 @@ main{
 }
 .pillars-box{
     max-width: 302px;
-    height: 200px;
+    /* height: 200px; */
     padding: 24px;
     background-color: white;
     border-radius: 16px;
@@ -134,32 +134,38 @@ main{
 .vision-box1{
     background-color: rgba(84, 144, 245, 0.2);
     max-width: 410px;
+    min-width: 370px;
     border-radius: 16px;
     padding: 24px;
     line-height: 24px;
 }
 .vision-box1>button{
     background-color: rgba(84, 144, 245, 1);
+    margin-top: 20px;
 }
 .vision-box2{
     background-color: rgba(198, 228, 214, 1);
     max-width: 410px;
+    min-width: 370px;
     border-radius: 16px;
     padding: 24px;
     line-height: 24px;
 }
 .vision-box2>button{
     background-color: rgba(9, 161, 92, 1);
+    margin-top: 45px;
 }
 .vision-box3{
     background-color: rgba(247, 235, 207, 1);
     max-width: 410px;
+    min-width: 370px;
     border-radius: 16px;
     padding: 24px;
     line-height: 24px;
 }
 .vision-box3>button{
     background-color: rgba(255, 194, 57, 1);
+
 }
 
 .vision-box1>.vision-box-title,.vision-box2>.vision-box-title,.vision-box3>.vision-box-title{

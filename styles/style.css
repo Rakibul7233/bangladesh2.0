@@ -18,7 +18,7 @@
     color: rgba(14, 14, 14, 0.6);
 }
 .primary-color2{
-    color: rgba(14, 14, 14, 0.8);
+    color: rgba(14, 14, 14, 0.9);
 }
 .border{
     border: 1px solid rgba(14, 14, 14, 0.15);
@@ -262,9 +262,15 @@ main{
     /* border: 1px solid black; */
     padding: 40px;
     border-radius: 16px;
+    transition: .5s;
+}
+.donate>.card-box>.card:hover{
+    background-color: rgb(182, 212, 228);
+    color: black;
 }
 .donate>.card-box>.card>.amount{
     margin: 0;
+    color: rgba(14, 14, 14, 0.5);
 }
 
 .donate>.input-box>input{

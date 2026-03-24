@@ -301,3 +301,24 @@ main{
 .newsletter>.subscribe-box>button{
     border-radius: 0 8px 8px 0;
 }
+
+
+/* footer section */
+footer{
+    background-color: white;
+    text-align: center;
+    padding: 48px;
+}
+footer>.title{
+    font-size: 40px;
+    font-weight: 700px;
+}
+footer>hr{
+    margin-bottom: 32px;
+    width: 80%;
+}
+footer>.icons{
+    gap: 15px;
+    display: flex;
+    justify-content: center;
+}

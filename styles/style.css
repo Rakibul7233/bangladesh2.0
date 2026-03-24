@@ -192,6 +192,7 @@ main{
 /* recent news  */
 .recent-news{
     line-height: 24px;
+    /* margin-bottom: 50px; */
 }
 .recent-news-text>h1{
     font-size: 40px;
@@ -228,4 +229,43 @@ main{
 }
 .box-text>button{
     margin-top: 10px;
+}
+/* article 2 */
+.article2>.box-text{
+    margin: 56px 48px;
+}
+.article2>img{
+    margin-left: 0;
+}
+
+/* Donate section  */
+.donate{
+    text-align: center;
+    line-height: 24px;
+    padding: 82px;
+}
+.donate>title{
+    font-size: 40px;
+    font-weight: 700px;
+}
+.donate>.card-box{
+    display: flex;
+    justify-content: space-evenly;
+}
+.donate>.card-box>.card{
+    /* border: 1px solid black; */
+    padding: 40px;
+    border-radius: 16px;
+}
+.donate>.card-box>.card>.amount{
+    margin: 0;
+}
+
+.donate>.input-box>input{
+    /* width: 85%; */
+    font-size: 20px;
+    padding: 20px 370px;
+    /* border-radius: 16px; */
+    margin: 32px;
+    color: black;
 }
